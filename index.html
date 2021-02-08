@@ -12,13 +12,20 @@
     <header>
         <h1>Etch-a-Sketch</h1>
     </header>
-    <div class="intro">
-        <p>This is EtchaSketch, whatever that means</p>
+    <div id="intro">
+        <p>Farbe wählen und mit gedrückter linker Maustauste losmalen.</p>
     </div>
-    <div class="gridMain">
-        <div class="gridEtch">
-            
-        </div>
+    <button id="reset" onclick = window.location.reload()>Neu laden</button>
+    <div id="color-picker">
+        <input type="button" class="btn" id="red">Red</input>
+        <input type="button" class="btn" id="blue" >Blue</input>
+        <input type="button" class="btn" id="pink">Pink</input>
+        <input type="button" class="btn" id="green">Green</input>
+        <input type="button" class="btn" id="yellow">Yellow</input>
+        <input type="button" class="btn" id="cornsilk">Löschen</input>
+    </div>
+    <div class="gc" id="grid-container">
+
 
     </div>
 
